@@ -159,7 +159,8 @@ public class RatingModule {
 				setState(prefs, RatingState.POSTPONE);
 				MetricModule.sendMetric(activity, Event.EventLabel.enjoyment_dialog__no);
 				dialog.dismiss();
-				Apptentive.showMessageCenter(activity, false, null);
+				//Apptentive.showMessageCenter(activity, false, null);
+				Apptentive.showSurvey(activity, null, "enjoyment_dialog_no");
 			}
 
 			@Override
