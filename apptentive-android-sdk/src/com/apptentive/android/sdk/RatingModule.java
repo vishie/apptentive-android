@@ -142,7 +142,9 @@ public class RatingModule {
 	 * @param activity The activityContext from which this method was called.
 	 */
 	void forceShowEnjoymentDialog(Activity activity) {
-		showEnjoymentDialog(activity, Trigger.forced);
+		if (Apptentive.isSurveyAvailable(activity, "enjoyment_dialog_no")) {
+			showEnjoymentDialog(activity, Trigger.forced);
+		}
 	}
 
 	void showEnjoymentDialog(final Activity activity, Trigger reason) {
@@ -278,11 +280,17 @@ public class RatingModule {
 			switch (state) {
 				case START:
 					// TODO: Trigger no longer makes sense with boolean logic expressions. Axe it.
-					showEnjoymentDialog(activity, Trigger.events);
-					return true;
+					if (Apptentive.isSurveyAvailable(activity, "enjoyment_dialog_no")) {
+						showEnjoymentDialog(activity, Trigger.events);
+						return true;
+					}
+					break;
 				case REMIND:
-					forceShowRatingDialog(activity);
-					return true;
+					if (Apptentive.isSurveyAvailable(activity, "enjoyment_dialog_no")) {
+						forceShowRatingDialog(activity);
+						return true;
+					}
+					break;
 				case POSTPONE:
 					break;
 				case RATED:
