@@ -66,12 +66,12 @@
                           android:gravity="bottom"
                           android:background="@drawable/android_textfield_activated_holo_light"
                           android:capitalize="sentences"
-                          android:textColor="@color/apptentive_dialog_form_text"
                           android:textCursorDrawable="@null"
                           android:singleLine="false"
                           android:minLines="2"
                           android:maxLines="5"
                           android:imeOptions="actionDone"
+                          android:textColor="@color/hippilyColor"
                           android:hint="@string/apptentive_intro_dialog_edittext_hint"/>
                 <LinearLayout android:layout_width="fill_parent"
                               android:layout_height="wrap_content"
