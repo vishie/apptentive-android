@@ -6,7 +6,24 @@
   -->
 
 <resources>
-    <color name="apptentive_text_message_text">#000000</color>
+    <color name="hippilyColor">#8062AB</color>
+    <color name="hippilyAlpha">#BF8062AB</color>
+    <color name="black">#000000</color>
+    <color name="hippilyText">#000066</color>
+    <color name="hippilyGrey">#A4A4A4</color>
+    <color name="hippilyDeepGrey">#808080</color>
+    <color name="hippilyBlack">#000000</color>
+    <color name="hippilyWhite">#FFFFFF</color>
+    <color name="hippilySocial">#FFFFFF</color>
+    <!--  <color name="hippilyShareBar">#F2F2F2</color> -->
+    <color name="hippilyShareBar">#FFFFFF</color>
+    <color name="hippilyShareBarSeparator">#FFFFFF</color>
+    <color name="hippilySeparator">#F1D3D3D3</color>
+    <color name="hippilyComment">#F2F2F2</color>
+    <color name="hippilyPopup">#eeF1F1F1</color>
+    <color name="hippilyBlue">#0000FF</color>
+    
+    <color name="apptentive_text_message_text">#000066 </color>
     <color name="apptentive_message_sender_text">#222222</color>
     <color name="apptentive_message_center_timestamp">#999999</color>
     <color name="apptentive_message_center_header_text_shadow">#AA000000</color>
@@ -20,24 +37,24 @@
     <color name="apptentive_dialog_form_text">#000000</color>
 
     <color name="apptentive_dialog_button_negative">#DDDDDD</color>
-    <color name="apptentive_dialog_button_negative_text">#000000</color>
+    <color name="apptentive_dialog_button_negative_text">#FFFFFF</color>
     <color name="apptentive_dialog_button_negative_disabled">#EBEBEB</color>
     <color name="apptentive_dialog_button_negative_disabled_text">#B9B9B9</color>
     <color name="apptentive_dialog_button_negative_focused">#B3B3B3</color>
-    <color name="apptentive_dialog_button_negative_focused_text">#000000</color>
+    <color name="apptentive_dialog_button_negative_focused_text">#FFFFFF</color>
     <color name="apptentive_dialog_button_negative_pressed">#B3B3B3</color>
-    <color name="apptentive_dialog_button_negative_pressed_text">#000000</color>
+    <color name="apptentive_dialog_button_negative_pressed_text">#FFFFFF</color>
     <color name="apptentive_dialog_button_negative_border_focused">#25A5CF</color>
 
-    <color name="apptentive_dialog_button_positive">#56B8D8</color>
-    <color name="apptentive_dialog_button_positive_text">#000000</color>
-    <color name="apptentive_dialog_button_positive_disabled">#D6E9F0</color>
-    <color name="apptentive_dialog_button_positive_disabled_text">#9BB8C2</color>
-    <color name="apptentive_dialog_button_positive_focused">#2699BF</color>
-    <color name="apptentive_dialog_button_positive_focused_text">#000000</color>
-    <color name="apptentive_dialog_button_positive_pressed">#2699BF</color>
-    <color name="apptentive_dialog_button_positive_pressed_text">#000000</color>
-    <color name="apptentive_dialog_button_positive_border_focused">#00769D</color>
+    <color name="apptentive_dialog_button_positive">#BF8062AB</color>
+    <color name="apptentive_dialog_button_positive_text">#FFFFFF</color>
+    <color name="apptentive_dialog_button_positive_disabled">#BF8062AB</color>
+    <color name="apptentive_dialog_button_positive_disabled_text">#FFFFFF</color>
+    <color name="apptentive_dialog_button_positive_focused">#BF8062AB</color>
+    <color name="apptentive_dialog_button_positive_focused_text">#FFFFFF</color>
+    <color name="apptentive_dialog_button_positive_pressed">#8062AB</color>
+    <color name="apptentive_dialog_button_positive_pressed_text">#FFFFFF</color>
+    <color name="apptentive_dialog_button_positive_border_focused">#8062AB</color>
 
     <color name="apptentive_activity_frame">#99000000</color>
     <color name="apptentive_activity_background">#FFFFFF</color>
@@ -47,16 +64,16 @@
     <color name="apptentive_survey_content_background">#D7D7D7</color>
     <color name="apptentive_survey_question_background">#FFFFFF</color>
     <color name="apptentive_survey_question_instruction_text">#000000</color>
-    <color name="apptentive_survey_question_instruction_text_valid">#56B8D8</color>
-    <color name="apptentive_survey_question_instruction_background_valid">#D6E9F0</color>
+    <color name="apptentive_survey_question_instruction_text_valid">#8062AB</color>
+    <color name="apptentive_survey_question_instruction_background_valid">#8062AB</color>
     <color name="apptentive_survey_question_instruction_text_invalid">#BB6F6F</color>
-    <color name="apptentive_survey_question_instruction_background_invalid">#EEDDDD</color>
+    <color name="apptentive_survey_question_instruction_background_invalid">#8062AB</color>
     <color name="apptentive_survey_question_text">#000000</color>
     <color name="apptentive_survey_question_answer_text">#000000</color>
     <color name="apptentive_survey_question_separator">#DDDDDD</color>
     <color name="apptentive_survey_answer_text">#000000</color>
     <color name="apptentive_survey_footer_background">@android:color/transparent</color>
-    <color name="apptentive_survey_thank_you_dialog_border">#56B8D8</color>
+    <color name="apptentive_survey_thank_you_dialog_border">#8062AB</color>
 
     <color name="apptentive_branding_text">#000000</color>
 
